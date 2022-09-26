@@ -13,6 +13,7 @@ def desactivate(systray):
 menu_options = (("Cleaning Keyboard: True", "circle-check-solid.ico", activate), ("Cleaning Keyboard: False", "circle-check-regular.ico", desactivate),)
 systray = SysTrayIcon("keyboard-solid.ico", "Keyboard Cleaner", menu_options)
 systray.start()
-
+def thisIsTest():
+    print("Hello, World!!!")
 
 #  IT'S WORKING!!!
